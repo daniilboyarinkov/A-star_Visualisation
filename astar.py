@@ -189,6 +189,8 @@ def get_clicked_pos(pos, rows, width):
 
 
 def main(win, width):
+        # ИНформационный принт в консоль
+        print(f"""Пробел - запускает алгоритм \n  с - очищает экран""")
 	ROWS = 25
 	grid = make_grid(ROWS, width)
 
